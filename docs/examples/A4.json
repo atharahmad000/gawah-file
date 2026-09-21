@@ -1,0 +1,229 @@
+{
+  "alert_id": "A4",
+  "wallet_id": "w_ayesha_lhr",
+  "headline": "An established customer made one unusual personal transfer.",
+  "timeline": [
+    {
+      "ts": "2026-07-08 13:00:00",
+      "txn_id": "txn_ayesha_normal_03",
+      "amount_pkr": 301,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-10 13:00:00",
+      "txn_id": "txn_ayesha_normal_04",
+      "amount_pkr": 318,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-07-12 13:00:00",
+      "txn_id": "txn_ayesha_normal_05",
+      "amount_pkr": 335,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-14 13:00:00",
+      "txn_id": "txn_ayesha_normal_06",
+      "amount_pkr": 352,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-07-16 13:00:00",
+      "txn_id": "txn_ayesha_normal_07",
+      "amount_pkr": 369,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-18 13:00:00",
+      "txn_id": "txn_ayesha_normal_08",
+      "amount_pkr": 386,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-07-20 13:00:00",
+      "txn_id": "txn_ayesha_normal_09",
+      "amount_pkr": 403,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-22 13:00:00",
+      "txn_id": "txn_ayesha_normal_10",
+      "amount_pkr": 420,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-07-24 13:00:00",
+      "txn_id": "txn_ayesha_normal_11",
+      "amount_pkr": 437,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-26 13:00:00",
+      "txn_id": "txn_ayesha_normal_12",
+      "amount_pkr": 454,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-07-28 13:00:00",
+      "txn_id": "txn_ayesha_normal_13",
+      "amount_pkr": 471,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-07-30 13:00:00",
+      "txn_id": "txn_ayesha_normal_14",
+      "amount_pkr": 488,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-01 13:00:00",
+      "txn_id": "txn_ayesha_normal_15",
+      "amount_pkr": 505,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-03 13:00:00",
+      "txn_id": "txn_ayesha_normal_16",
+      "amount_pkr": 522,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-05 13:00:00",
+      "txn_id": "txn_ayesha_normal_17",
+      "amount_pkr": 539,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-07 13:00:00",
+      "txn_id": "txn_ayesha_normal_18",
+      "amount_pkr": 556,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-09 13:00:00",
+      "txn_id": "txn_ayesha_normal_19",
+      "amount_pkr": 573,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-11 13:00:00",
+      "txn_id": "txn_ayesha_normal_20",
+      "amount_pkr": 590,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-13 13:00:00",
+      "txn_id": "txn_ayesha_normal_21",
+      "amount_pkr": 607,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-15 13:00:00",
+      "txn_id": "txn_ayesha_normal_22",
+      "amount_pkr": 624,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-17 13:00:00",
+      "txn_id": "txn_ayesha_normal_23",
+      "amount_pkr": 641,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-19 13:00:00",
+      "txn_id": "txn_ayesha_normal_24",
+      "amount_pkr": 658,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-21 13:00:00",
+      "txn_id": "txn_ayesha_normal_25",
+      "amount_pkr": 675,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-23 13:00:00",
+      "txn_id": "txn_ayesha_normal_26",
+      "amount_pkr": 692,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-25 13:00:00",
+      "txn_id": "txn_ayesha_normal_27",
+      "amount_pkr": 709,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-27 13:00:00",
+      "txn_id": "txn_ayesha_normal_28",
+      "amount_pkr": 726,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-29 13:00:00",
+      "txn_id": "txn_ayesha_normal_29",
+      "amount_pkr": 743,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-31 11:00:00",
+      "txn_id": "txn_ayesha_duplicate_1",
+      "amount_pkr": 4500,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-31 11:11:00",
+      "txn_id": "txn_ayesha_duplicate_2",
+      "amount_pkr": 4500,
+      "description": "merchant_debit / out / success"
+    },
+    {
+      "ts": "2026-08-31 19:10:00",
+      "txn_id": "txn_ayesha_cousin",
+      "amount_pkr": 12000,
+      "description": "p2p_send / out / success"
+    }
+  ],
+  "sql_queries_relied_on": [
+    "get_wallet",
+    "list_transactions",
+    "find_first_credit_drain",
+    "find_night_failed_bills",
+    "find_cashout_after_failures",
+    "find_shared_payee",
+    "wallet_links",
+    "find_duplicate_merchant_debit",
+    "get_risk_flags",
+    "list_prior_cases",
+    "goodwill_this_quarter"
+  ],
+  "linked_wallets": [],
+  "linked_evidence": [],
+  "clause_ids_cited": [
+    "T04_loyal_customer_one_odd",
+    "T07_when_not_to_freeze"
+  ],
+  "clause_quotes": [
+    {
+      "clause_id": "T04_loyal_customer_one_odd",
+      "quote": "A loyal long-term customer with mixed grocery and household bill history can make a single odd P2P send for an ordinary reason."
+    },
+    {
+      "clause_id": "T07_when_not_to_freeze",
+      "quote": "Long-good customers with one odd P2P are not freeze-first."
+    }
+  ],
+  "risk_hint": "low",
+  "risk_hint_reasons": [],
+  "recommended_action": "watch",
+  "why_not_other_actions": "Ordinary spending history and no first-credit drain support restraint. [T04_loyal_customer_one_odd, T07_when_not_to_freeze]",
+  "open_questions": [
+    "What additional customer or settlement evidence would resolve the open concern?"
+  ],
+  "known_facts": [
+    "Goodwill of PKR 800 approved on 2026-08-10; already used this quarter.",
+    "Use tables and short findings. Do not propose goodwill."
+  ],
+  "brief_style": "tables",
+  "writer": "template"
+}

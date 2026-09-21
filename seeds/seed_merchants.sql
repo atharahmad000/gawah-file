@@ -1,0 +1,21 @@
+-- Fictional demonstration data. Amounts are whole PKR.
+INSERT INTO merchants VALUES ('m_hussain_general', 'Hussain General (fictional)', 'grocery');
+INSERT INTO merchants VALUES ('m_kelectric', 'Example utility', 'utility');
+INSERT INTO merchants VALUES ('p_new_unknown_1', 'Unverified payee (fictional)', 'unknown');
+INSERT INTO merchants VALUES ('p_cashout_desk_1', 'Demo cash-out desk', 'cashout');
+INSERT INTO merchants VALUES ('p_cousin_umair', 'Cousin Umair (fictional)', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_01', 'Example merchant 1', 'utility');
+INSERT INTO merchants VALUES ('m_filler_02', 'Example merchant 2', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_03', 'Example merchant 3', 'grocery');
+INSERT INTO merchants VALUES ('m_filler_04', 'Example merchant 4', 'utility');
+INSERT INTO merchants VALUES ('m_filler_05', 'Example merchant 5', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_06', 'Example merchant 6', 'grocery');
+INSERT INTO merchants VALUES ('m_filler_07', 'Example merchant 7', 'utility');
+INSERT INTO merchants VALUES ('m_filler_08', 'Example merchant 8', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_09', 'Example merchant 9', 'grocery');
+INSERT INTO merchants VALUES ('m_filler_10', 'Example merchant 10', 'utility');
+INSERT INTO merchants VALUES ('m_filler_11', 'Example merchant 11', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_12', 'Example merchant 12', 'grocery');
+INSERT INTO merchants VALUES ('m_filler_13', 'Example merchant 13', 'utility');
+INSERT INTO merchants VALUES ('m_filler_14', 'Example merchant 14', 'p2p');
+INSERT INTO merchants VALUES ('m_filler_15', 'Example merchant 15', 'grocery');

@@ -1,0 +1,14 @@
+{
+  "gawah_fraud": {
+    "graph_id": "gawah_fraud",
+    "config": {"configurable": {"officer_id": "off_fraud_01", "desk_role": "fraud", "user_id": "farah_demo"}},
+    "input": {"alert_id": "A1", "officer_id": "off_fraud_01"},
+    "multitask_strategy": "interrupt"
+  },
+  "gawah_care": {
+    "graph_id": "gawah_care",
+    "config": {"configurable": {"officer_id": "off_care_01", "desk_role": "care", "user_id": "omar_demo"}},
+    "input": {"alert_id": "A1", "officer_id": "off_care_01"},
+    "multitask_strategy": "interrupt"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "alert_id": "A5",
+  "wallet_id": "w_hamza_rwp",
+  "headline": "Flag remains; no new typology in the small grocery purchase.",
+  "timeline": [
+    {
+      "ts": "2026-09-01 10:00:00",
+      "txn_id": "txn_hamza_grocery",
+      "amount_pkr": 400,
+      "description": "merchant_debit / out / success"
+    }
+  ],
+  "sql_queries_relied_on": [
+    "get_wallet",
+    "list_transactions",
+    "find_first_credit_drain",
+    "find_night_failed_bills",
+    "find_cashout_after_failures",
+    "find_shared_payee",
+    "wallet_links",
+    "find_duplicate_merchant_debit",
+    "get_risk_flags",
+    "list_prior_cases",
+    "goodwill_this_quarter"
+  ],
+  "linked_wallets": [],
+  "linked_evidence": [],
+  "clause_ids_cited": [
+    "T05_already_reviewed_watchlist"
+  ],
+  "clause_quotes": [
+    {
+      "clause_id": "T05_already_reviewed_watchlist",
+      "quote": "An active watchlist flag requires officer review even when the new transaction is a tiny grocery purchase."
+    }
+  ],
+  "risk_hint": "medium",
+  "risk_hint_reasons": [
+    "active_watchlist"
+  ],
+  "recommended_action": "close",
+  "why_not_other_actions": "Prior review closed. Closing this alert does not clear the active watchlist. [T05_already_reviewed_watchlist]",
+  "open_questions": [
+    "What additional customer or settlement evidence would resolve the open concern?"
+  ],
+  "known_facts": [
+    "Prior review case_hamza_review_aug closed; watchlist remains active.",
+    "Prior review closed on 2026-08-15; active watchlist remains.",
+    "Use tables and short findings. Do not propose goodwill."
+  ],
+  "brief_style": "tables",
+  "writer": "template"
+}

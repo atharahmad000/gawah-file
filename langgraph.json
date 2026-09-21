@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "gawah_fraud": "./studio/desk_graph.py:graph",
+    "gawah_care": "./studio/desk_graph.py:graph"
+  },
+  "env": ".env"
+}

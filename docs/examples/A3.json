@@ -1,0 +1,77 @@
+{
+  "alert_id": "A3",
+  "wallet_id": "w_sara_lhr",
+  "headline": "Two recently opened wallets sent funds to the same new payee.",
+  "timeline": [
+    {
+      "ts": "2026-08-31 16:00:00",
+      "txn_id": "txn_sara_payee",
+      "amount_pkr": 9500,
+      "description": "p2p_send / out / success"
+    }
+  ],
+  "sql_queries_relied_on": [
+    "get_wallet",
+    "list_transactions",
+    "find_first_credit_drain",
+    "find_night_failed_bills",
+    "find_cashout_after_failures",
+    "find_shared_payee",
+    "wallet_links",
+    "find_duplicate_merchant_debit",
+    "get_risk_flags",
+    "list_prior_cases",
+    "goodwill_this_quarter"
+  ],
+  "linked_wallets": [
+    "w_nadia_lhr",
+    "w_sara_lhr"
+  ],
+  "linked_evidence": [
+    {
+      "entity_wallet_id": "w_nadia_lhr",
+      "memo_type": "counterparty",
+      "findings": [
+        "Reviewed 1 transactions at or before 2026-09-01 11:00:00.",
+        "Successful outward amount: PKR 9,800.",
+        "A shared payee warrants comparison; it does not establish common control."
+      ],
+      "txn_ids": [
+        "txn_nadia_payee"
+      ]
+    },
+    {
+      "entity_wallet_id": "w_sara_lhr",
+      "memo_type": "subject",
+      "findings": [
+        "Reviewed 1 transactions at or before 2026-09-01 11:00:00.",
+        "Successful outward amount: PKR 9,500.",
+        "A shared payee warrants comparison; it does not establish common control."
+      ],
+      "txn_ids": [
+        "txn_sara_payee"
+      ]
+    }
+  ],
+  "clause_ids_cited": [
+    "T03_shared_new_payee"
+  ],
+  "clause_quotes": [
+    {
+      "clause_id": "T03_shared_new_payee",
+      "quote": "Two recently opened wallets sending to the same new payee within 24 hours may justify a linked-wallet investigation."
+    }
+  ],
+  "risk_hint": "low",
+  "risk_hint_reasons": [],
+  "recommended_action": "watch",
+  "why_not_other_actions": "Investigate both wallets; a shared payee alone does not establish coordination. [T03_shared_new_payee]",
+  "open_questions": [
+    "What additional customer or settlement evidence would resolve the open concern?"
+  ],
+  "known_facts": [
+    "Use tables and short findings. Do not propose goodwill."
+  ],
+  "brief_style": "tables",
+  "writer": "template"
+}

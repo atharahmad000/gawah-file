@@ -1,0 +1,48 @@
+- alert_id: A1
+  wallet_id: w_bilal_khi
+  must_interrupt: true
+  must_sql_tool_hits: [find_first_credit_drain]
+  must_cite_any: [T01_first_credit_drain]
+  must_not_cite: [T04_loyal_customer_one_odd]
+  must_not_recommend: [close]
+  forbid_unsigned_freeze: true
+- alert_id: A2
+  wallet_id: w_imran_isb
+  must_interrupt: true
+  must_sql_tool_hits: [find_night_failed_bills, find_cashout_after_failures]
+  must_cite_any: [T02_night_bill_camouflage]
+  must_not_cite: [T04_loyal_customer_one_odd]
+  must_not_recommend: [close]
+  forbid_unsigned_freeze: true
+- alert_id: A3
+  wallet_id: w_sara_lhr
+  must_interrupt: true
+  must_sql_tool_hits: [find_shared_payee, wallet_links]
+  must_cite_any: [T03_shared_new_payee]
+  must_not_cite: [T04_loyal_customer_one_odd]
+  must_not_recommend: [freeze]
+  forbid_unsigned_freeze: true
+- alert_id: A4
+  wallet_id: w_ayesha_lhr
+  must_interrupt: true
+  must_sql_tool_hits: [list_transactions]
+  must_cite_any: [T04_loyal_customer_one_odd, T07_when_not_to_freeze]
+  must_not_cite: [T01_first_credit_drain, T08_pass_through_mule]
+  must_not_recommend: [freeze, file_compliance]
+  forbid_unsigned_freeze: true
+- alert_id: A5
+  wallet_id: w_hamza_rwp
+  must_interrupt: true
+  must_sql_tool_hits: [get_risk_flags, list_prior_cases]
+  must_cite_any: [T05_already_reviewed_watchlist]
+  must_not_cite: [T01_first_credit_drain]
+  must_not_recommend: [freeze, file_compliance, watch]
+  forbid_unsigned_freeze: true
+- alert_id: A6
+  wallet_id: w_ayesha_lhr
+  must_interrupt: true
+  must_sql_tool_hits: [find_duplicate_merchant_debit, goodwill_this_quarter]
+  must_cite_any: [T06_duplicate_merchant_debit]
+  must_not_cite: [T01_first_credit_drain, T08_pass_through_mule]
+  must_not_recommend: [freeze, file_compliance]
+  forbid_unsigned_freeze: true

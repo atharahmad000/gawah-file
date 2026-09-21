@@ -1,0 +1,75 @@
+# A6 · Evidence pack
+
+## Two equal shop debits need a duplicate-payment investigation.
+
+> Fictional demonstration data. Amounts are whole PKR.
+
+**Review status: awaiting a human signature.** This is a recommendation, not an approved action.
+
+For wallet **w_ayesha_lhr**, the proposed action is **watch**. The risk hint is **low**. Investigate a one-leg reversal; the duplicate-debit pattern does not support a freeze. [T06_duplicate_merchant_debit]
+
+**Why this pauses:** all investigation packs require human sign-off.
+
+### Transaction evidence
+
+This timeline contains up to 30 recent subject-wallet transactions at the investigation cutoff. Failed attempts are shown as evidence; their amounts are not settled outflow.
+
+<details>
+<summary>View the ledger evidence</summary>
+
+| Local time | Transaction | PKR | Type / direction / status |
+|---|---|---:|---|
+| 2026-07-08 13:00:00 | `txn_ayesha_normal_03` | 301 | merchant_debit / out / success |
+| 2026-07-10 13:00:00 | `txn_ayesha_normal_04` | 318 | bill / out / success |
+| 2026-07-12 13:00:00 | `txn_ayesha_normal_05` | 335 | merchant_debit / out / success |
+| 2026-07-14 13:00:00 | `txn_ayesha_normal_06` | 352 | bill / out / success |
+| 2026-07-16 13:00:00 | `txn_ayesha_normal_07` | 369 | merchant_debit / out / success |
+| 2026-07-18 13:00:00 | `txn_ayesha_normal_08` | 386 | bill / out / success |
+| 2026-07-20 13:00:00 | `txn_ayesha_normal_09` | 403 | merchant_debit / out / success |
+| 2026-07-22 13:00:00 | `txn_ayesha_normal_10` | 420 | bill / out / success |
+| 2026-07-24 13:00:00 | `txn_ayesha_normal_11` | 437 | merchant_debit / out / success |
+| 2026-07-26 13:00:00 | `txn_ayesha_normal_12` | 454 | bill / out / success |
+| 2026-07-28 13:00:00 | `txn_ayesha_normal_13` | 471 | merchant_debit / out / success |
+| 2026-07-30 13:00:00 | `txn_ayesha_normal_14` | 488 | bill / out / success |
+| 2026-08-01 13:00:00 | `txn_ayesha_normal_15` | 505 | merchant_debit / out / success |
+| 2026-08-03 13:00:00 | `txn_ayesha_normal_16` | 522 | bill / out / success |
+| 2026-08-05 13:00:00 | `txn_ayesha_normal_17` | 539 | merchant_debit / out / success |
+| 2026-08-07 13:00:00 | `txn_ayesha_normal_18` | 556 | bill / out / success |
+| 2026-08-09 13:00:00 | `txn_ayesha_normal_19` | 573 | merchant_debit / out / success |
+| 2026-08-11 13:00:00 | `txn_ayesha_normal_20` | 590 | bill / out / success |
+| 2026-08-13 13:00:00 | `txn_ayesha_normal_21` | 607 | merchant_debit / out / success |
+| 2026-08-15 13:00:00 | `txn_ayesha_normal_22` | 624 | bill / out / success |
+| 2026-08-17 13:00:00 | `txn_ayesha_normal_23` | 641 | merchant_debit / out / success |
+| 2026-08-19 13:00:00 | `txn_ayesha_normal_24` | 658 | bill / out / success |
+| 2026-08-21 13:00:00 | `txn_ayesha_normal_25` | 675 | merchant_debit / out / success |
+| 2026-08-23 13:00:00 | `txn_ayesha_normal_26` | 692 | bill / out / success |
+| 2026-08-25 13:00:00 | `txn_ayesha_normal_27` | 709 | merchant_debit / out / success |
+| 2026-08-27 13:00:00 | `txn_ayesha_normal_28` | 726 | bill / out / success |
+| 2026-08-29 13:00:00 | `txn_ayesha_normal_29` | 743 | merchant_debit / out / success |
+| 2026-08-31 11:00:00 | `txn_ayesha_duplicate_1` | 4,500 | merchant_debit / out / success |
+| 2026-08-31 11:11:00 | `txn_ayesha_duplicate_2` | 4,500 | merchant_debit / out / success |
+| 2026-08-31 19:10:00 | `txn_ayesha_cousin` | 12,000 | p2p_send / out / success |
+
+</details>
+
+### Previous cases and desk context
+
+- Goodwill already used this quarter; do not propose another goodwill payment.
+- Goodwill of PKR 800 approved on 2026-08-10; already used this quarter.
+- Use a short paragraph. Check prior goodwill before suggesting a gesture.
+
+### Policy support
+
+**`T06_duplicate_merchant_debit`**
+
+> Two equal successful merchant debits at the same shop within 15 minutes, including an eleven minute gap, indicate a possible duplicate-debit dispute.
+
+### Questions for the officer
+
+- Do receipts and settlement records establish a duplicate rather than two purchases?
+
+### Evidence provenance
+
+Repository functions used: `get_wallet`, `list_transactions`, `find_first_credit_drain`, `find_night_failed_bills`, `find_cashout_after_failures`, `find_shared_payee`, `wallet_links`, `find_duplicate_merchant_debit`, `get_risk_flags`, `list_prior_cases`, `goodwill_this_quarter`.
+
+[All example packs](README.md) · [Case explanations](../CASE_STUDIES.md)

@@ -1,0 +1,41 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	load_alert(load_alert)
+	gather_sql(gather_sql)
+	retrieve_playbook(retrieve_playbook)
+	score_hint(score_hint)
+	write_pack(write_pack)
+	merge(merge)
+	gate(gate)
+	apply_action(apply_action<hr/><small><em>__interrupt = before</em></small>)
+	persist_pack(persist_pack)
+	write_memory(write_memory)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> load_alert;
+	apply_action -.-> gate;
+	apply_action -.-> persist_pack;
+	gate --> apply_action;
+	gather_sql --> retrieve_playbook;
+	gather_sql --> score_hint;
+	investigate_entity\3asummarise_entity --> write_pack;
+	load_alert --> gather_sql;
+	merge -.-> investigate_entity\3alist_transactions;
+	merge -.-> write_pack;
+	persist_pack --> write_memory;
+	retrieve_playbook --> merge;
+	score_hint --> merge;
+	write_pack --> gate;
+	write_memory --> __end__;
+	subgraph investigate_entity
+	investigate_entity\3alist_transactions(list_transactions)
+	investigate_entity\3asummarise_entity(summarise_entity)
+	investigate_entity\3alist_transactions --> investigate_entity\3asummarise_entity;
+	end
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

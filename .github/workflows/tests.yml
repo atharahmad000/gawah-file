@@ -1,0 +1,53 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.11'
+          - os: ubuntu-latest
+            python: '3.12'
+          - os: windows-latest
+            python: '3.12'
+    env:
+      GAWAH_OFFLINE: '1'
+      GAWAH_AS_OF: '2026-09-01T12:00:00'
+      LANGSMITH_TRACING: 'false'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check dependencies and repository
+        run: |
+          python -m pip check
+          python scripts/check_repository.py
+      - name: Build the demo from source
+        run: |
+          python seeds/build_db.py
+          python scripts/check_seeds.py
+          python scripts/build_index.py
+      - name: Run the complete offline suite
+        run: python -m pytest -q -p no:langsmith
+      - name: Confirm checks leave source files unchanged
+        run: git diff --exit-code

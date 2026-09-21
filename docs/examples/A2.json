@@ -1,0 +1,135 @@
+{
+  "alert_id": "A2",
+  "wallet_id": "w_imran_isb",
+  "headline": "Repeated night bill failures preceded a successful cash-out.",
+  "timeline": [
+    {
+      "ts": "2026-08-02 12:00:00",
+      "txn_id": "txn_imran_bill_0",
+      "amount_pkr": 900,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-03 12:00:00",
+      "txn_id": "txn_imran_bill_1",
+      "amount_pkr": 923,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-04 12:00:00",
+      "txn_id": "txn_imran_bill_2",
+      "amount_pkr": 946,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-05 12:00:00",
+      "txn_id": "txn_imran_bill_3",
+      "amount_pkr": 969,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-06 12:00:00",
+      "txn_id": "txn_imran_bill_4",
+      "amount_pkr": 992,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-07 12:00:00",
+      "txn_id": "txn_imran_bill_5",
+      "amount_pkr": 1015,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-08 12:00:00",
+      "txn_id": "txn_imran_bill_6",
+      "amount_pkr": 1038,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-08-09 12:00:00",
+      "txn_id": "txn_imran_bill_7",
+      "amount_pkr": 1061,
+      "description": "bill / out / success"
+    },
+    {
+      "ts": "2026-09-01 01:00:00",
+      "txn_id": "txn_imran_fail_1",
+      "amount_pkr": 100,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 01:40:00",
+      "txn_id": "txn_imran_fail_2",
+      "amount_pkr": 110,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 02:20:00",
+      "txn_id": "txn_imran_fail_3",
+      "amount_pkr": 120,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 03:00:00",
+      "txn_id": "txn_imran_fail_4",
+      "amount_pkr": 130,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 03:40:00",
+      "txn_id": "txn_imran_fail_5",
+      "amount_pkr": 140,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 04:20:00",
+      "txn_id": "txn_imran_fail_6",
+      "amount_pkr": 150,
+      "description": "failed_bill / out / failed"
+    },
+    {
+      "ts": "2026-09-01 05:12:00",
+      "txn_id": "txn_imran_cashout",
+      "amount_pkr": 18000,
+      "description": "cashout / out / success"
+    }
+  ],
+  "sql_queries_relied_on": [
+    "get_wallet",
+    "list_transactions",
+    "find_first_credit_drain",
+    "find_night_failed_bills",
+    "find_cashout_after_failures",
+    "find_shared_payee",
+    "wallet_links",
+    "find_duplicate_merchant_debit",
+    "get_risk_flags",
+    "list_prior_cases",
+    "goodwill_this_quarter"
+  ],
+  "linked_wallets": [],
+  "linked_evidence": [],
+  "clause_ids_cited": [
+    "T02_night_bill_camouflage"
+  ],
+  "clause_quotes": [
+    {
+      "clause_id": "T02_night_bill_camouflage",
+      "quote": "Six or more failed utility bills between 01:00 and 05:00, followed by a successful cash-out within two hours of the last failure, warrant investigation for possible night bill camouflage."
+    }
+  ],
+  "risk_hint": "medium",
+  "risk_hint_reasons": [
+    "failed_bills_night_7d"
+  ],
+  "recommended_action": "watch",
+  "why_not_other_actions": "The file supports review; it does not establish intent. [T02_night_bill_camouflage]",
+  "open_questions": [
+    "Was there a utility outage or another ordinary cause for the failures?"
+  ],
+  "known_facts": [
+    "Use tables and short findings. Do not propose goodwill."
+  ],
+  "brief_style": "tables",
+  "writer": "template"
+}

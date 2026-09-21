@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">Three responsibilities, one review boundary</title><desc id="desc">SQL supplies evidence. Whole-page retrieval supplies policy. LangGraph gathers, investigates linked wallets, saves a pack, and pauses before recording an approved draft and memory.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#81969C"/></marker></defs>
+<rect x="0" y="0" width="1200" height="740" rx="0" fill="#F5F3ED" stroke="none"/>
+<text x="48" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#087F75">THREE RESPONSIBILITIES. ONE REVIEW BOUNDARY.</text>
+<text x="48" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="650" fill="#102D38">How an alert becomes a reviewable file</text>
+<rect x="48" y="147" width="348" height="164" rx="16" fill="#FFFFFF" stroke="#D8E2DD"/>
+<text x="70" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#087F75">01 / FACTS</text>
+<text x="70" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="650" fill="#102D38">Operational SQL</text>
+<text x="70" y="255" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">Ledger · flags · previous cases</text>
+<text x="70" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">Bound queries, fixed cutoff</text>
+<rect x="426" y="147" width="348" height="164" rx="16" fill="#FFFFFF" stroke="#D8E2DD"/>
+<text x="448" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#087F75">02 / CONTEXT</text>
+<text x="448" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="650" fill="#102D38">Policy retrieval</text>
+<text x="448" y="255" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">Ten complete handbook clauses</text>
+<text x="448" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">Local TF-IDF, traceable citations</text>
+<rect x="804" y="147" width="348" height="164" rx="16" fill="#FFFFFF" stroke="#D8E2DD"/>
+<text x="826" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#087F75">03 / CONTROL</text>
+<text x="826" y="219" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="650" fill="#102D38">LangGraph</text>
+<text x="826" y="255" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">Threads · subgraphs · checkpoints</text>
+<text x="826" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#50676F">A signature gate on every case</text>
+<path d="M222 312 L222 345" stroke="#81969C" stroke-width="2" fill="none"/>
+<path d="M600 312 L600 345" stroke="#81969C" stroke-width="2" fill="none"/>
+<path d="M978 312 L978 345" stroke="#81969C" stroke-width="2" fill="none"/>
+<path d="M222 345 L978 345" stroke="#81969C" stroke-width="2" fill="none"/>
+<path d="M600 345 L600 367" stroke="#81969C" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="380" width="258" height="102" rx="16" fill="#E6EEEA" stroke="none"/>
+<text x="68" y="419" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="650" fill="#102D38">Gather</text>
+<text x="68" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#50676F">Evidence and prior context</text>
+<path d="M306 430 L327 430" stroke="#81969C" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="330" y="380" width="258" height="102" rx="16" fill="#E6EEEA" stroke="none"/>
+<text x="350" y="419" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="650" fill="#102D38">Investigate</text>
+<text x="350" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#50676F">Linked-wallet memos</text>
+<path d="M588 430 L609 430" stroke="#81969C" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="612" y="380" width="258" height="102" rx="16" fill="#E6EEEA" stroke="none"/>
+<text x="632" y="419" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="650" fill="#102D38">Draft</text>
+<text x="632" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#50676F">Pack and policy support</text>
+<path d="M870 430 L891 430" stroke="#81969C" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="894" y="380" width="258" height="102" rx="16" fill="#102D38" stroke="none"/>
+<text x="914" y="419" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="650" fill="#FFFFFF">Pause</text>
+<text x="914" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#BAD6D5">Officer reviews the file</text>
+<path d="M1023 483 L1023 527" stroke="#087F75" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="612" y="542" width="540" height="102" rx="16" fill="#DCEFE7" stroke="#AAD2C2"/>
+<text x="638" y="580" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="650" fill="#087F75">Only after a signed decision</text>
+<text x="638" y="613" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" fill="#102D38">Approved draft + audit event → durable case memory</text>
+<text x="48" y="562" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#102D38">Unsigned resume?</text>
+<text x="48" y="596" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" fill="#50676F">Log the refusal and return to the review gate.</text>
+<text x="48" y="627" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#50676F">A risk hint can require review. It cannot authorize action.</text>
+<path d="M48 674 L1152 674" stroke="#D5DEDC" stroke-width="2" fill="none"/>
+<text x="48" y="710" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#50676F">Local scripts: ops.db + separate graph checkpoints    |    Studio: server-managed checkpoints</text>
+</svg>

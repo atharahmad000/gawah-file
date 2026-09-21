@@ -1,0 +1,58 @@
+{
+  "alert_id": "A1",
+  "wallet_id": "w_bilal_khi",
+  "headline": "A new wallet moved most of its first credit out within 30 minutes.",
+  "timeline": [
+    {
+      "ts": "2026-08-31 14:00:00",
+      "txn_id": "txn_bilal_credit",
+      "amount_pkr": 25000,
+      "description": "cashin / in / success"
+    },
+    {
+      "ts": "2026-08-31 14:18:00",
+      "txn_id": "txn_bilal_drain",
+      "amount_pkr": 24200,
+      "description": "cashout / out / success"
+    }
+  ],
+  "sql_queries_relied_on": [
+    "get_wallet",
+    "list_transactions",
+    "find_first_credit_drain",
+    "find_night_failed_bills",
+    "find_cashout_after_failures",
+    "find_shared_payee",
+    "wallet_links",
+    "find_duplicate_merchant_debit",
+    "get_risk_flags",
+    "list_prior_cases",
+    "goodwill_this_quarter"
+  ],
+  "linked_wallets": [],
+  "linked_evidence": [],
+  "clause_ids_cited": [
+    "T01_first_credit_drain"
+  ],
+  "clause_quotes": [
+    {
+      "clause_id": "T01_first_credit_drain",
+      "quote": "A first inbound credit followed by cash-out within 30 minutes, moving 80 percent or more of that credit, may indicate a first-credit drain."
+    }
+  ],
+  "risk_hint": "high",
+  "risk_hint_reasons": [
+    "minutes_first_in_to_out",
+    "inout_ratio_6h"
+  ],
+  "recommended_action": "freeze",
+  "why_not_other_actions": "A draft freeze merits review because the first-credit timing and amount are corroborated. [T01_first_credit_drain]",
+  "open_questions": [
+    "What additional customer or settlement evidence would resolve the open concern?"
+  ],
+  "known_facts": [
+    "Use tables and short findings. Do not propose goodwill."
+  ],
+  "brief_style": "tables",
+  "writer": "template"
+}

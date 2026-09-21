@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="666" viewBox="0 0 1200 666" role="img" aria-labelledby="title desc">
+<title id="title">Two alerts, different recommendations, the same human gate</title><desc id="desc">A1 proposes freeze from corroborated first-credit evidence. A4 proposes watch because an established customer has no first-credit drain. Both wait for human review.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#81969C"/></marker></defs>
+<rect x="0" y="0" width="1200" height="666" rx="0" fill="#F5F3ED" stroke="none"/>
+<text x="48" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#087F75">A USEFUL INVESTIGATION KNOWS WHEN TO SHOW RESTRAINT</text>
+<text x="48" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="650" fill="#102D38">Different evidence. Different recommendations.</text>
+<rect x="48" y="151" width="528" height="364" rx="16" fill="#FFFFFF" stroke="#D8E2DD"/>
+<rect x="48" y="151" width="528" height="6" rx="0" fill="#B56D24" stroke="none"/>
+<text x="74" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#B56D24">A1 / BILAL</text>
+<text x="74" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="650" fill="#102D38">First-credit drain</text>
+<circle cx="80" cy="275" r="3" fill="#B56D24"/>
+<text x="96" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">Recently opened wallet</text>
+<circle cx="80" cy="311" r="3" fill="#B56D24"/>
+<text x="96" y="317" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">PKR 25,000 first successful credit</text>
+<circle cx="80" cy="347" r="3" fill="#B56D24"/>
+<text x="96" y="353" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">PKR 24,200 cash-out after 18 minutes</text>
+<circle cx="80" cy="383" r="3" fill="#B56D24"/>
+<text x="96" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">96.8% of the first credit moved out</text>
+<text x="74" y="443" font-family="Consolas, monospace" font-size="14" font-weight="600" fill="#B56D24">T01_first_credit_drain</text>
+<rect x="74" y="464" width="154" height="30" rx="15" fill="#F7E9D6" stroke="none"/>
+<text x="87" y="484" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#B56D24">DRAFT FREEZE</text>
+<rect x="624" y="151" width="528" height="364" rx="16" fill="#FFFFFF" stroke="#D8E2DD"/>
+<rect x="624" y="151" width="528" height="6" rx="0" fill="#087F75" stroke="none"/>
+<text x="650" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#087F75">A4 / AYESHA</text>
+<text x="650" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="650" fill="#102D38">One unusual transfer</text>
+<circle cx="656" cy="275" r="3" fill="#087F75"/>
+<text x="672" y="281" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">Wallet opened January 2025</text>
+<circle cx="656" cy="311" r="3" fill="#087F75"/>
+<text x="672" y="317" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">Established grocery and bill history</text>
+<circle cx="656" cy="347" r="3" fill="#087F75"/>
+<text x="672" y="353" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">One PKR 12,000 personal transfer</text>
+<circle cx="656" cy="383" r="3" fill="#087F75"/>
+<text x="672" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#50676F">No matching first-credit drain</text>
+<text x="650" y="443" font-family="Consolas, monospace" font-size="14" font-weight="600" fill="#087F75">T04 + T07 / customer context and restraint</text>
+<rect x="650" y="464" width="87" height="30" rx="15" fill="#E0EFEB" stroke="none"/>
+<text x="663" y="484" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#087F75">WATCH</text>
+<rect x="48" y="550" width="1104" height="72" rx="16" fill="#102D38" stroke="none"/>
+<text x="80" y="596" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="500" fill="#FFFFFF">SAME CONTROL: both files pause for a human signature before an approved draft is recorded.</text>
+<text x="48" y="649" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#50676F">Synthetic examples. A draft freeze is a proposal; this demonstration never changes wallet status.</text>
+</svg>
